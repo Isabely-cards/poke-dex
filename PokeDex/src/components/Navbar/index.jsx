@@ -14,7 +14,8 @@ const Navbar = () => {
                 alt="Pokoapi logo"
                 className={styles.navbar_logo}
                 src={logoImg}/>
-                <div>{favoritePokemons.length} ❤️</div>
+                <div className={styles.favorito} >{favoritePokemons.length} ❤️</div>
+                
             </nav>
         </div>
     )
