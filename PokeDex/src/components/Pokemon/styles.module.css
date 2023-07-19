@@ -34,6 +34,7 @@
   
 .card_top h3 {
     text-transform: capitalize;
+    color: #dc5212;
 }
   
 .card_bottom {
@@ -49,7 +50,7 @@
 }
   
 .pokemon_type_text {
-    background-color: #191825;
+    background-color: #333059;
     color: white;
     border: 4px solid transparent;
     border-radius: 3px;
