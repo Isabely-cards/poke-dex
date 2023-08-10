@@ -17,7 +17,7 @@ const Pokemon = (props) => {
         <div className={styles.card_body}>
             <div className={styles.card_top}>
                 <h3> {pokemon.name}</h3>
-                <div>#{pokemon.id}</div>
+                <div className={styles.card_id}>#{pokemon.id}</div>
             </div>
             <div className={styles.card_bottom}>
                 <div className={styles.pokemon_type}>

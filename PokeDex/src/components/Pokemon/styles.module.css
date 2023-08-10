@@ -1,30 +1,36 @@
 .pokemon_card {
     display: flex;
-    width: 80%;
-    gap: 10px;
+    width: 300px;
     align-items: center;
-    box-shadow: 4px 4px 4px 4px #fffb68;
+    box-shadow: 7px 7px 13px 0px #fffb68;
     border-radius: 2px;
-    padding: 10px 15px 10px;
+    padding: 30px;
     border: 10px;
-
-    
+    margin: 20px;
+    transition: all 0.3s ease-out;
 }
+
+.pokemon_card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
 .pokemon_image_container {
-    padding: 0px 5px;
+    float: left;
     width: 100%;
     
 }
 
 .pokemon_image {
     margin-right: 1px;
+    size: 100%;
+    max-width: 100%;
+    
 }
 .card_body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 10px 10px 10px;
-    flex: 2;
     
 }
 
