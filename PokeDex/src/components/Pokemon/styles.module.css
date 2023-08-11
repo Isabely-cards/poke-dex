@@ -1,13 +1,15 @@
 .pokemon_card {
+    background-color:  #7038F8 ;
     display: flex;
     width: 300px;
     align-items: center;
-    box-shadow: 7px 7px 13px 0px #fffb68;
+    box-shadow: 7px 7px 13px 0px #a98ee8;
     border-radius: 2px;
     padding: 30px;
     border: 10px;
     margin: 20px;
     transition: all 0.3s ease-out;
+
 }
 
 .pokemon_card:hover {
@@ -42,19 +44,17 @@
     
 }
 
-
-
 .card_id {
-    position: absolute;
     top: 1px;
     right: 4px;
     font-size: 11px;
-    color: #bbb;
+    color: #fffbf3;
 }
   
 .card_top h3 {
     text-transform: capitalize;
-    color: #dc5212;
+    color: #95b000;
+    font-size: 30px;
     
 }
   
