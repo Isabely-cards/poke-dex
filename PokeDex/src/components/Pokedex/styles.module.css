@@ -7,8 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
-    
+
 }
 
 .pokedex_header h1 {
@@ -17,7 +16,21 @@
     font-size: 50px;
 }
 
-  
+.c_loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #cdee0f;
+    height: 40px;
+    width: 40px;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
 
 .pokedex_grid {
     display: grid;
