@@ -5,9 +5,13 @@ const Pagination = (props) => {
     const {page, totalPages, onLeftClick, onRightClick} = props
     return (
         <div className={styles.pagination_container}>
-            <button onClick={onLeftClick}><div>◀️</div></button>
+            <button onClick={onLeftClick}>
+                <div className={styles.arrow}>◀️</div>
+            </button>
             <div>{page} de {totalPages}</div>
-            <button onClick={onRightClick}><div>▶️</div></button>
+            <button onClick={onRightClick}>
+                <div className={styles.arrow}>▶️</div>
+            </button>
         </div>
     )
 }
