@@ -13,7 +13,7 @@ const Searchbar = (props) => {
     }
 
     const onButtonClickHandler = () => {
-        onSearch(search)
+        onSearch(search.toLowerCase())
     }
     return (
         <div className={styles.searchbar_container}>
