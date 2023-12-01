@@ -29,15 +29,26 @@
     background-color: #F4F27E;
     border: 3px solid transparent;
     border-radius: 2px;
-    height: 47px;
+    height: 45px;
     color: #050505;
-    padding: 20x 20px ;
+    padding: 10px 20px ;
     width: 120%
-    
 }
 
 .search_btn button:hover {
     cursor: pointer;
 }
-    
+@media only screen and (max-width: 768px) {
+    .searchbar_container {
+        justify-content: center; /* Centralizar a barra de pesquisa em telas menores */
+    }
+
+    .searchbar {
+        width: 90%; /* Reduzir a largura da barra de pesquisa para telas menores */
+    }
+
+    .search_btn button {
+        width: 150%; /* Largura total para o botão em telas menores */
+    }
+}
     
