@@ -1,16 +1,39 @@
 .nav {
+    padding: 20px;
+    background-color: #3081D0;
     height: 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 }
   
 .navbar_logo {
-    width: 180px;
+    width: 160px;
 }
 
 .favorito {
-    background-color: #00DFA2;
-    border: 1px solid transparent;
-    border-radius: 5px;
+    width: 45%; 
+    font-size: 30px;   
+}
+.search {
+    width: 40%;
+
+}
+
+@media (max-width: 768px) {
+    .nav {
+        height: auto; /* Ajustar a altura automaticamente */
+        flex-direction: row; /* Mudar para uma disposição em linha */
+        justify-content: space-between; /* Espaçamento entre os elementos */
+        padding: 10px; /* Adicionar espaço interno */
+    }
+  
+    .navbar_logo {
+        width: 120px; /* Reduzir o tamanho do logo */
+    }
+
+    .favorito {
+        width: 100%; /* Fazer o botão favorito ocupar a largura disponível */
+        margin-top: 10px; /* Adicionar margem superior */
+    }
 }

@@ -82,6 +82,7 @@ function App() {
       value={{
         favoritePokemons: favorites,
         updateFavoritePokemons: updateFavoritePokemons,
+        onSearchHandler: onSearchHandler 
       }}
     >
       <div>
