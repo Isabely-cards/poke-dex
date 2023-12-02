@@ -4,18 +4,39 @@
     align-items: center;
     color: #fffbf3;
     font-size: 20px;
-
-
-}
-
-.pagination_container button {
+  }
+  
+  .pagination_container button {
     background: none;
     border: none;
     padding: 10px 20px;
     font-size: 30px;
-    /* Ajuste o tamanho da fonte para aumentar o ícone */
     background: none;
     border: none;
     cursor: pointer;
-}
-
+  }
+  
+  /* Estilo para telas menores que 768px */
+  @media only screen and (max-width: 768px) {
+    .pagination_container {
+      font-size: 16px; /* Reduz a fonte para telas menores */
+    }
+  
+    .pagination_container button {
+      padding: 8px 16px; /* Reduz o padding dos botões */
+      font-size: 24px; /* Reduz o tamanho da fonte dos botões */
+    }
+  }
+  
+  /* Estilo para telas menores que 500px */
+  @media only screen and (max-width: 500px) {
+    .pagination_container {
+      font-size: 14px; /* Ajusta a fonte para telas ainda menores */
+    }
+  
+    .pagination_container button {
+      padding: 6px 12px; /* Reduz ainda mais o padding dos botões */
+      font-size: 20px; /* Reduz mais a fonte dos botões */
+    }
+  }
+  

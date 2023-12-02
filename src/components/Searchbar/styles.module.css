@@ -6,7 +6,7 @@
 }
     
 .searchbar {
-    margin: 15px;
+    margin: 18px;
     width: 100%
 }
     
@@ -14,7 +14,7 @@
     color: #ffffff;
     background: none;
     padding: 10px;
-    border: 2px solid #F4F27E;
+    border: 1px solid #F4F27E;
     border-radius: 3px;
     margin-right: 20px;
     width: 100%;
@@ -32,13 +32,13 @@
     height: 45px;
     color: #050505;
     padding: 10px 20px ;
-    width: 120%
+    width: 100%
 }
 
 .search_btn button:hover {
     cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 788px) {
     .searchbar_container {
         justify-content: center; /* Centralizar a barra de pesquisa em telas menores */
     }
@@ -48,7 +48,20 @@
     }
 
     .search_btn button {
-        width: 150%; /* Largura total para o botão em telas menores */
+        width: 100%; /* Largura total para o botão em telas menores */
     }
 }
-    
+
+@media only screen and (max-width: 560px) {
+    .searchbar_container {
+        justify-content: center; /* Centralizar a barra de pesquisa em telas menores */
+    }
+
+    .searchbar {
+        width: 100%; /* Reduzir a largura da barra de pesquisa para telas menores */
+    }
+
+    .search_btn button {
+        width: 100%; /* Largura total para o botão em telas menores */
+    }
+}

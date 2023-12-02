@@ -15,12 +15,9 @@
     width: 45%; 
     font-size: 30px;   
 }
-.search {
-    width: 40%;
 
-}
 
-@media (max-width: 768px) {
+@media (max-width: 788px) {
     .nav {
         height: auto; /* Ajustar a altura automaticamente */
         flex-direction: row; /* Mudar para uma disposição em linha */
@@ -29,11 +26,11 @@
     }
   
     .navbar_logo {
-        width: 120px; /* Reduzir o tamanho do logo */
+        width: 150px; /* Reduzir o tamanho do logo */
     }
 
     .favorito {
-        width: 100%; /* Fazer o botão favorito ocupar a largura disponível */
+        width: 50%; /* Fazer o botão favorito ocupar a largura disponível */
         margin-top: 10px; /* Adicionar margem superior */
     }
 }
