@@ -11,3 +11,9 @@
 body {
   background-color: #000000;
 }
+
+.not-found-text {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
